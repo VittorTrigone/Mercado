@@ -1,0 +1,7 @@
+{
+    "produtos" : [
+        {"id" : 1, "name": "Teste1", "email": "Teste1"},
+        {"id" : 2, "name": "Teste 2", "email": "Teste2"},
+        {"id" : 3, "name": "Teste3", "email": "Teste3"}
+    ]
+}
