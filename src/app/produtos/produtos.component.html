@@ -1,1 +1,16 @@
-<p>produtos works!</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let produto of produtos">
+            <th scope="row">{{produto.id}}</th>
+            <th>{{produto.name}}</th>
+            <th>{{produto.email}}</th>
+        </tr>
+    </tbody>
+</table>
