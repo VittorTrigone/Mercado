@@ -3,14 +3,20 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Nome</th>
-            <th scope="col">Email</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Fornecedor</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Quantidade</th>
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let produto of produtos">
             <th scope="row">{{produto.id}}</th>
             <th>{{produto.name}}</th>
-            <th>{{produto.email}}</th>
+            <th>{{produto.description}}</th>
+            <th>{{produto.supplier}}</th>
+            <th>{{produto.price}}</th>
+            <th>{{produto.amont}}</th>
         </tr>
     </tbody>
 </table>

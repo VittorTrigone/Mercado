@@ -1,5 +1,9 @@
 export interface Client {
     id : number;
     name : string;
-    email : string;
+    description : string;
+    supplier : string;
+    price: string;
+    amont: number;
+
 }

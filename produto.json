@@ -1,7 +1,7 @@
 {
     "produtos" : [
-        {"id" : 1, "name": "Teste1", "email": "Teste1"},
-        {"id" : 2, "name": "Teste 2", "email": "Teste2"},
-        {"id" : 3, "name": "Teste3", "email": "Teste3"}
+        {"id" : 1, "name": "Teclado", "description": "Teclado MUITO TOP!!!", "supplier": "Pichau", "price": "R$430,50", "amont": "57"},
+        {"id" : 2, "name": "Mouse", "description": "Melhor mouse GAMER do mundo!", "supplier": "Terabyte", "price": "R$389,50", "amont": "23"},
+        {"id" : 3, "name": "Monitor", "description": "Monitor 800Hz, INCRIVER!!", "supplier": "Magazine Luiza", "price": "R$1.328,90", "amont": "16"}
     ]
 }
